@@ -528,7 +528,7 @@ small {
     gap: 3.2rem 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .my-skills ul {
         grid-template-columns: repeat(2, 1fr);
     }
