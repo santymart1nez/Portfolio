@@ -525,14 +525,16 @@ small {
 .my-skills ul {
     padding-block-start: 5rem;
     display: grid;
+    grid-template-columns: repeat(4, 1fr); 
     gap: 3.2rem 1rem;
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
     .my-skills ul {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
+
 
 @media (min-width: 1024px) {
     .my-skills ul {
@@ -545,6 +547,7 @@ small {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
 
 
 /*******************
